@@ -30,7 +30,7 @@ Additionally, installs scripts `n-update` for later on-demand updating of `n`, a
 The simplest case is **installation of `n` with confirmation prompt**, with subsequent **installation of the latest stable Node.js version**:
 
 ```shell
-curl -L http://git.io/n-install | bash
+curl -L http://git.io/vVIBC | bash
 ```
 
 This is by far **the simplest way to get started with both `n` and Node.js** - even if you're looking to install only the latest stable Node.js version, with no (immediate) plans to install _multiple_ versions.
@@ -64,33 +64,33 @@ Note: The examples use only `curl` for brevity; to run a given command with `wge
 * Installation with confirmation prompt to default location `$HOME/n` and installation of the latest stable Node.js version:
 
 ```shell
-curl -L http://git.io/n-install | bash
+curl -L http://git.io/vVIBC | bash
 ```
 
 * Automated installation to default location `$HOME/n` and installation of the latest stable Node.js version:
 
 ```shell
-curl -L http://git.io/n-install | bash -s -- -y
+curl -L http://git.io/vVIBC | bash -s -- -y
 ```
 
 * Automated, _quiet_ installation to default location `$HOME/n` and installation of the latest stable Node.js version; _no status information_
 is displayed:
 
 ```shell
-curl -sL http://git.io/n-install | bash -s -- -q
+curl -sL http://git.io/vVIBC | bash -s -- -q
 ```
 
 * Automated installation to the default location, with subsequent installation of the latest LTS
   (Long Term Support) version, and the latest 0.10.x release:
 
 ```shell
-curl -L http://git.io/n-install | bash -s -- -y lts 0.10
+curl -L http://git.io/vVIBC | bash -s -- -y lts 0.10
 ```
 
 * Automated installation to custom location `~/util/n`, with subsequent installation of the latest stable Node.js version:
 
 ```shell
-curl -L http://git.io/n-install | N_PREFIX=~/util/n bash -s -- -y
+curl -L http://git.io/vVIBC | N_PREFIX=~/util/n bash -s -- -y
 ```
 
 # Installing n
@@ -114,7 +114,7 @@ For other shells, manual updating of the relevant initialization file is require
 ## Installation from GitHub
 
 ```shell
-curl -L http://git.io/n-install | [N_PREFIX=<dir>] bash [-s -- [-y] [<version>...]]
+curl -L http://git.io/vVIBC | [N_PREFIX=<dir>] bash [-s -- [-y] [<version>...]]
 ```
 
 See below for an explanation of the options; `-s --` is required by Bash itself in order to pass options through to the script piped from stdin.
